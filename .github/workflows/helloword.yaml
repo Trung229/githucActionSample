@@ -6,7 +6,7 @@ jobs: # nhung job can chay
   say-hi: # id job
     runs-on: ubuntu-latest # chay tren nen tang nao
     steps:
-      - run: echo TODAY="$(date + %y-%m-%d %H:%M:%S)" >> $GITHUB_ENV
+      - run: echo "TODAY=$(date + %y-%m-%d %H:%M:%S)" >> $GITHUB_ENV
       - run: echo Hello world
       - run: echo Today is $TODAY
 
