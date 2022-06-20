@@ -4,6 +4,7 @@ on: #chay khi nao
     paths:
       - '!README.md'
       - '!docs/**'
+      - '**.js'
     branches: [main]
 jobs: # nhung job can chay
   say-hi: # id job
