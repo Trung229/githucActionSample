@@ -9,7 +9,7 @@ on: #chay khi nao
       - 'main'
       - 'release/**'
       - '!dev/**'
-  pull:
+  pull_request:
     type: [opened],
     branches: main
 jobs: # nhung job can chay
