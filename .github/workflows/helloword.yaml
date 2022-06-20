@@ -5,7 +5,13 @@ on: #chay khi nao
       - '!README.md'
       - '!docs/**'
       - '**.js'
-    branches: [main]
+    branches: 
+      - 'main'
+      - 'release/**'
+      - '!dev/**'
+  pull_request:
+     type: [opened]
+     branches: [main]
 jobs: # nhung job can chay
   say-hi: # id job
     runs-on: ubuntu-latest # chay tren nen tang nao
