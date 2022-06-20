@@ -1,1 +1,1 @@
-# READ ME PLEASE
+# READ ME PLEASE, if you dont read this file, you cant understand

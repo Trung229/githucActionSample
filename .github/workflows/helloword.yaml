@@ -1,7 +1,7 @@
 name: Hello world #name cua workflow 
 on: #chay khi nao
   push:
-    path:
+    paths:
       - '!README.md'
       - '!docs/**'
     branches: [main]
