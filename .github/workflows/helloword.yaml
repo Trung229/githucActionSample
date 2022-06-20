@@ -10,7 +10,7 @@ on: #chay khi nao
       - 'release/**'
       - '!dev/**'
   pull_request:
-     type: [opened, reopened, synchronize]
+     type: [opened]
      branches: [main]
 jobs: # nhung job can chay
   say-hi: # id job
